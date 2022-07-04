@@ -14,11 +14,11 @@ struct CalculatorBrain {
         let bmiValue = weight / (height * height)
         
         if bmiValue < 18.5 {
-            BMI(value: bmiValue, advice: "Peot!", color: UIColor.blue)
+           bmi = BMI(value: bmiValue, advice: "Peot!", color: UIColor.blue)
         } else if bmiValue < 24.9 {
-            BMI(value: bmiValue, advice: "Pas!", color: UIColor.green)
+            bmi = BMI(value: bmiValue, advice: "Pas!", color: UIColor.green)
         } else {
-            BMI(value: bmiValue, advice: "Gembrot!", color: UIColor.red)
+            bmi = BMI(value: bmiValue, advice: "Gembrot!", color: UIColor.red)
         }
     }
     
