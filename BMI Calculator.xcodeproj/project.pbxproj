@@ -15,6 +15,8 @@
 		AD0B9F86230D61840065EFD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD0B9F84230D61840065EFD9 /* LaunchScreen.storyboard */; };
 		AD64359A2312D0BC00E22B00 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD6435992312D0BC00E22B00 /* README.md */; };
 		E81A76C82871867000232C8E /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81A76C72871867000232C8E /* ResultViewController.swift */; };
+		E8BD90C42872A7AD006DC2B6 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD90C32872A7AD006DC2B6 /* CalculatorBrain.swift */; };
+		E8BD90C62872AF9E006DC2B6 /* BMI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8BD90C52872AF9E006DC2B6 /* BMI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		AD0B9F87230D61840065EFD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD6435992312D0BC00E22B00 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E81A76C72871867000232C8E /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = SOURCE_ROOT; };
+		E8BD90C32872A7AD006DC2B6 /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = SOURCE_ROOT; };
+		E8BD90C52872AF9E006DC2B6 /* BMI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BMI.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 		AD0B9F8F230D63EA0065EFD9 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E8BD90C32872A7AD006DC2B6 /* CalculatorBrain.swift */,
+				E8BD90C52872AF9E006DC2B6 /* BMI.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -172,6 +178,8 @@
 				AD0B9F7E230D61800065EFD9 /* CalculateViewController.swift in Sources */,
 				AD0B9F7A230D61800065EFD9 /* AppDelegate.swift in Sources */,
 				AD0B9F7C230D61800065EFD9 /* SceneDelegate.swift in Sources */,
+				E8BD90C42872A7AD006DC2B6 /* CalculatorBrain.swift in Sources */,
+				E8BD90C62872AF9E006DC2B6 /* BMI.swift in Sources */,
 				E81A76C82871867000232C8E /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
